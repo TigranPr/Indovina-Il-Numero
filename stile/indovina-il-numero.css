@@ -1,0 +1,11 @@
+body{box-sizing: border-box;font-family: Arial, sans-serif;margin: 0;padding: 0;background-image: url(../immagini/sfondo.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: cover;background-position: center;} 
+h1 {width: 60%;margin: 20px auto;border: none;text-align: center;font-size: 28px;color: #333;background-color: #f0f0f0;padding: 15px;border-radius: 8px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);opacity: 0.9;margin-top: 40px;} 
+.sottotitolo {padding: 0;margin: 0;text-align: center;font-weight: 600;font-size: 30px;color: #555;} 
+.contenitore {border: none;width: 60%;margin: 150px auto;padding: 25px;background-color: #ffffff;border-radius: 10px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);} 
+.tentativi, .numero {margin-bottom: 10px;font-weight: bold;font-size: 18px;color: #333;} 
+#tentativi, #numero {border: 2px solid #ddd;width: 100%;padding: 10px;font-size: 16px;border-radius: 5px;margin-bottom: 15px;box-sizing: border-box;} 
+#indovina, #nuovaPartita {background-color: #007BFF;color: white;padding: 10px 15px;border-radius: 25px;border: none;font-size: 16px;cursor: pointer;transition: background-color 0.3s ease;} 
+#indovina:hover, #nuovaPartita:hover {background-color: #0056b3;} 
+#nuovaPartita {margin-left: 10px;background-color: #28a745;} 
+#nuovaPartita:hover {background-color: #218838;} 
+#msg {font-size: 16px;margin-top: 15px;color: red;} h2{color: red;}

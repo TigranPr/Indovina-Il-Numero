@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stile/indovina-il-numero.css">
+    <script src="./script/indovina-il-numero.js" defer></script>
+    <title>Indovina il numero</title>
+</head>
+<body>
+    
+
+    <div class="contenitore">
+        <p class="sottotitolo">Indovina il numero estratto...</p><br>
+        <h2></h2><br>
+
+        <p class="tentativi">Quanti tentativi? (1-10)</p>
+        <input type="number" id="tentativi" placeholder="Immetti numero di tentativi"><br> 
+
+        <p class="numero">Prova ad indovinare il numero estratto (1-100)</p>
+        <input type="number" id="numero" placeholder="Che numero è stato estratto?"><br>
+
+        <button id="indovina">Indovina</button>
+        <button id="nuovaPartita">Nuova partita</button>
+        <p id="msg"></p>
+    </div>
+
+</body>
+</html>
